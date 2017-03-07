@@ -113,7 +113,6 @@ body {
 }
 .property-images{
 	border-radius:15px;
-	border:3px solid red;
 }
 
 #home-property-buttons { 
@@ -157,6 +156,304 @@ body {
 	margin:5px;
 	visibility:visible;
 }
+/* --------------------------- COLUMN CONTAINER --------------------------- */
+#column-mask {
+	position: relative;	/* This fixes the IE7 overflow hidden bug */
+	top:0px;
+	clear:both;
+	width:974px;		/* width of whole page */
+	margin-left:auto;
+	margin-right:auto;
+	overflow:hidden;	/* This chops off any overhanging divs */
+	z-index: 500;
+}
+
+/* ------------------------ COMMON COLUMN SETTINGS ------------------------ */
+#column-container {
+	behavior: url(javascript/display-table.min.htc);
+}
+	
+#column-container {
+	position:relative;
+	width:972px;
+	height:100%;
+	display: block;
+	margin-left:auto; 
+	margin-right:auto;
+	display:table;
+	-dt-display: table;
+	
+}
+
+#column1 {
+	display:table-cell;
+	-dt-display: table-cell;
+	position: relative;
+	width:288px;
+	background: url(images/bkgd_column1.gif) repeat;
+	padding:0;
+	margin:0;
+}
+#column1 #column-text {
+	position:absolute; 
+	top:214px;
+	width:268px;
+	margin-left: 10px;
+	margin-top:10px;
+}
+#column1 #column-text p,
+#column1 #column-text a {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size:13px;
+	color:#000;
+	text-decoration:none;
+}
+#column1 #column-text h2 {
+	
+	font-size:16px;
+	font-weight:700;
+	color: #AB4B00;
+	line-height:18px;
+	margin-top:0;
+}
+#column1 #column-text a:hover {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size:13px;
+	color:#000;
+	text-decoration: underline;
+}
+#column1 #agent-text {
+	position:absolute; 
+	top:214px;
+	width:268px;
+	margin-left: 10px;
+	margin-top:10px;
+}
+#column1 #agent-text p,
+#column1 #agent-text a {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size:14px;
+	color:#000;
+	text-decoration:none;
+}
+#column1 #agent-text a:hover {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size:14px;
+	color:#000;
+	text-decoration: underline;
+}
+#column1 #agent-text span.agentname {
+	font-size:16px;
+	font-weight:700;
+	color: #AB4B00;
+	line-height:18px;
+	top:-5px;
+}
+#column1 #agent-text span.agenttitle {
+	font-size:13px;
+	/*font-weight:400;
+	color: #000;*/
+	font-style:italic;
+	color:#343F62;
+	font-weight:700;
+}
+#column1 #agent-text span.agentphone,
+#column1 #agent-text span.agentphone a {
+	font-size:15px;
+	font-weight:700;
+	color: #AB4B00;
+}
+#column1 #search-form-basic {
+	position:absolute; 
+	top:0px;
+	width:268px;
+	margin:0;
+	padding:0;
+}
+#column1 #search-form-basic h2 {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size:24px;
+	color:#AB4B00;
+	text-transform:uppercase;
+	line-height:26px;
+	padding-left:10px;
+	letter-spacing: 0.0em;
+}
+#column1 #search-form-basic p {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size:14px;
+	font-weight:700;
+	color:#343F62;
+	line-height:27px;
+	padding-left:10px;
+}
+#column1 #search-form-basic a {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size:14px;
+	font-weight:700;
+	color:#343F62;
+	line-height:27px;
+	padding-left:10px;
+	text-decoration:underline;
+}
+#column1 #search-form-basic a:hover {
+	text-decoration: none;
+}
+input[type=text].search, input[type=number].search {
+	background: #FFF;
+	border: 1px solid #343F62;
+	font-family: 'Quattrocento Sans', sans-serif;
+	color: #343F62;
+	font-size: 14px;
+	margin: 0;
+	padding: 2px;
+	width: 130px;
+	height: 16px;
+		-webkit-border-radius: 0px;
+		-moz-border-radius: 0px;
+		-o-border-radius: 0px;
+	border-radius: 0px;
+}
+input[type=text]:focus.search { 
+	background: #F4F4F4;
+}
+input[type=number]:focus.search {
+	background: #F4F4F4;
+}
+input[type=submit].search {
+	height: 30px;
+	width: 130px;
+	margin:0;
+	padding:0;
+	background: #673424;
+	font-family: 'Quattrocento Sans', sans-serif;
+	color: #DBB753;
+	font-size: 18px;
+	line-height:30px;
+	border: 1px solid #000;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		-o-border-radius: 5px;
+	border-radius: 5px;
+	cursor:pointer;
+}
+input[type=submit].links {
+	height:30px;
+	width:248px;
+	margin-top:10px;
+	margin-left:10px;
+	padding:0;
+	padding-left:50px;
+	padding-right:20px;
+	font-family: 'Quattrocento Sans', sans-serif;
+	color:#AB4B00;
+	font-size:16px;
+	line-height:30px;
+	border:1px solid #000;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		-o-border-radius: 5px;
+	border-radius: 5px;
+	cursor:pointer;
+}
+
+#column1 #search-form-basic #search-types {
+	width:288px;
+	position:relative;
+	top:0px;
+	margin:0;
+	padding:0;
+}
+#column1 #search-form-basic #search-types li,
+#column1 #search-form-basic #search-types li span {
+	width:120px;
+	height:24px;
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size:14px;
+	font-weight:700;
+	color:#343F62;
+	line-height:24px;
+	overflow:hidden;
+}
+#column1 #search-form-basic #search-types li { 
+	float:left; 
+	list-style:none; 
+	_display:inline; 
+	padding-left:10px;
+}
+#column1 h1 {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size:26px;
+	font-weight: 700;
+	color: #AB4B00;
+	visibility:visible;
+}
+#column1 h2 {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size:16px;
+	font-weight: 700;
+	color: #AB4B00;
+	visibility:visible;
+}
+#column2 {
+	display: table-cell;
+	-dt-display: table-cell;
+	position: relative;
+	width:680px;
+	padding:0;
+	margin:0;
+}
+#column2 #column-text {
+	position:relative;
+	width:614px;
+	min-height:450px;
+	display:block;
+	margin-top:10px;
+	margin-left:60px;
+	margin-right:10px;
+	margin-bottom:30px;
+}
+#column2 #column-text p {
+	font-family: 'Quattrocento', serif;
+	font-size:16px;
+	font-weight:400;
+	line-height: 24px;
+}
+#column2 #column-text li {
+	font-family: 'Quattrocento', serif;
+	font-size:16px;
+	font-weight:400;
+	line-height: 16px;
+	list-style: circle;
+	height: 16px;
+}
+#column2 #column-text a {
+	font-family: 'Quattrocento', serif;
+	font-size:16px;
+	text-decoration:underline;
+	line-height: 24px;
+}
+#column2 #column-text a:hover {
+	text-decoration: none;
+}
+#column2 #column-text h1 {
+	font-family: 'Quattrocento', serif;
+	font-size:26px;
+	font-weight: 700;
+	color: #333F61;
+	visibility:visible;
+}
+#column2 #search-results {
+	position:relative;
+	width:654px;
+	height:auto;
+	min-height:700px;
+	margin-left:30px;
+	padding:0;
+	background:#FFF;
+	display: block;
+}
+
 
 /* ------------------------ SEARCH RESULTS LIST FRAMEWORK ------------------------ */
 #property-list { 
