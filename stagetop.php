@@ -1,4 +1,4 @@
-<!-- #include virtual="C:\Users\Crystal\Documents\WINDERMERE WEBSITE\style.css" -->
+
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -9,6 +9,7 @@
 <meta name="keywords" content="commercial real estate, listings, commercial properties, for sale, for lease, spokane, coeur d'alene, eastern washington, inland northwest, north idaho, sds realty, seattle, tacoma, portland, bend, washington state, oregon, idaho, northwest, puget sound" />
 <meta name="robots" content="index, follow" />
 <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="WCRE/style.css" media="screen" />
 <script language="JavaScript">
 <!--
 function MM_findObj(n, d) { //v4.01
