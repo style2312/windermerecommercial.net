@@ -26,7 +26,7 @@
 		<div id="button-mask">
  
 </div>
-        <img src="C:\Users\Crystal\Documents\WINDERMERE WEBSITE\Images\river.jpg" height="435" width="684" border="0">
+        <img src="Images\river.jpg" height="435" width="700" border="0">
 	</div> <!-- /middle-home-right -->
   </div> <!-- /header-middle -->
   <div id="header-bottom"></div>
@@ -37,11 +37,11 @@
   <div id="column-container">
 	<ul id="home-property-buttons">
       <li style="background:#E6EAF1;"><span><a href="office.html"><img class="property-images" src="C:\Users\Crystal\Documents\WINDERMERE WEBSITE\Images\office.jpg" /><p class="title">Office</p><p class="text">View Listings >></p></a></span></li>
-      <li style="background:#F4F4F4;"><span><a href="industrial.html"><img class="property-images" src="C:\Users\Crystal\Documents\WINDERMERE WEBSITE\Images\industrial.jpg" /><p class="title">Industrial</p><p class="text">View Listings >></p></a></span></li>
       <li style="background:#D9DCD7;"><span><a href="retail.html"><img class="property-images" src="C:\Users\Crystal\Documents\WINDERMERE WEBSITE\Images\retail.jpg" /><p class="title">Retail</p><p class="text">View Listings >></p></a></span></li>
+	  <li style="background:#F4F4F4;"><span><a href="industrial.html"><img class="property-images" src="C:\Users\Crystal\Documents\WINDERMERE WEBSITE\Images\industrial.jpg" /><p class="title">Industrial</p><p class="text">View Listings >></p></a></span></li>
       <li style="background:#E6EAF1;"><span><a href="multi-family.html"><img class="property-images" src="C:\Users\Crystal\Documents\WINDERMERE WEBSITE\Images\multifamily.jpg" /><p class="title">Multi-Family</p><p class="text">View Listings >></p></a></span></li>
-      <li style="background:#F4F4F4;"><span><a href="land.html"><img class="property-images" src="C:\Users\Crystal\Documents\WINDERMERE WEBSITE\Images\land.jpg" /><p class="title">Land</p><p class="text">View Listings >></p></a></span></li>
-      <li style="background:#D9DCD7;"><span><a href="mixed-use.html"><img class="property-images" src="C:\Users\Crystal\Documents\WINDERMERE WEBSITE\Images\mixeduse.jpg" /><p class="title">Mixed Use</p><p class="text">View Listings >></p></a></span></li>
+      <li style="background:#D9DCD7;"><span><a href="land.html"><img class="property-images" src="C:\Users\Crystal\Documents\WINDERMERE WEBSITE\Images\land.jpg" /><p class="title">Land</p><p class="text">View Listings >></p></a></span></li>
+      <li style="background:#F4F4F4;"><span><a href="hospitality.html"><img class="property-images" src="C:\Users\Crystal\Documents\WINDERMERE WEBSITE\Images\hospitality.cb.jpg" /><p class="title">Mixed Use</p><p class="text">View Listings >></p></a></span></li>
 	</ul>
   </div> <!-- /column-container -->
 </div> <!-- /column-mask -->
