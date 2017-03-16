@@ -1,5 +1,4 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -7,45 +6,170 @@
 	<meta name="description" content="Windermere Commercial Real Estate" />
 	<meta name="keywords" content="commercial real estate, listings, commercial properties, for sale, for lease, spokane, coeur d'alene, eastern washington, inland northwest, north idaho, sds realty, seattle, tacoma, portland, bend, washington state, oregon, idaho, northwest, puget sound" />
 	<meta name="robots" content="index, follow" />
-	<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="master2.css" media="screen" />
+	<script src="mobile.js" type="text/javascript"></script>
 </head>
-<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
-
-<div id="header">
-  <div id="header-top"></div>
-  <div id="small-header-middle">   
-	<div id="small-header-left"> 
-		<table>
-			<tr>
-				<td><img id="smLogo" src="images/logo.jpg"/></td>
-				<td><div id="smcontact">
+	<body >
+		<div id="HeaderWrapper" style="width:100%; height:80px;  border-bottom:2px solid #003e7b; position:relative; text-align:center;">
+			<div id="header-bottom"  style="border-bottom:4px solid #003e7b; width:100%;position:relative; top:84px;"></div> 
+			<div id="TopNav" style="width:70%; float:right; position:relative;">
+				<ul>
+					<li><a href="index.html"><div class="bdutton">Home</div></a></li>
+					<li><a href="agents.html"><div class="buttdon">Our Agents</div></a></li>
+					<li><a href="customSearch.html"><div class="butdton" id="search">Custom Search</div></a></li>
+					<li><a href="aboutus.html"><div class="buttdon" id="company">Our Company</div></a></li>
+					<li><a href="contactus.html"><div class="butdton">Contact Us</div></a></li>
+				</ul>
+			</div>
+			<div id="ContactWrapper"  style="background-color:white;">
+				<img id="logo" src="images/logo.jpg" alt="Windermere Commercial" style=" position:relative; z-index:98;width:275px;"/>
+				<div id="LeftPanel" style=" height:250px; width:300px; position:relative; margin-left:5%; z-index:99;"> 
+					<div id="contact" style="display:inline-block; padding-right:20%;">
 						<h2><span>(509)</span> 747-1051</h2>
-						<h3>2829 S. Grand Blvd, #101<br />
-						Spokane, WA 99223</h3>
-					</div>  
-				</td>
-			</tr>
-		</table>
-		<div id="OfficeListings"><h2>Looking for Office Space?</h2></div>
-    </div>  
-    <div id="smHeaderImg"  class="slideshow" style="z-index:800;">
-		<table>
-			<tr>
-				<td><a href="index.html"><div class="button">Home</div></a></td>
-				<td><a href="agents.html"><div class="button">Our Agents</div></a></td>
-				<td><a href="customsearch.html"><div class="button" id="Search">Custom Search</div></a></td>
-				<td><a href="aboutus.html"><div class="button" id="search">Our Company</div></a></td>
-				<td><a href="contactus.html"><div class="button">Contact Us</div></a></td>
-			</tr>
-		</table>
-	   <img src="Images\river.jpg" height="205" width="718" border="0" align="right">
-	</div> <!-- /middle-home-right -->
-	<div id="short-header-bottom"></div>
-  </div> <!-- /header-middle -->
-  
-</div> <!-- /header -->
+						<h3>2829 South Grand Blvd, Suite 101<br />
+						Spokane, WA 99203</h3>
+					</div>  	
+				</div>   
+			</div>
+		</div>
+			
+		<div id="PageWrapper" style="width:65%; height:250px; float:right; padding-right:150px;">
+			<div id="SlideshowWrapper" style="width:100%; height:250px; float:right;">
+				<div id="divOuterStyle" style="position:relative; width:1050px; height:250px; line-height:0; overflow: hidden;">
+					<div id="idPanel1" style="position: absolute; z-index: 5; opacity: 1;">
+						<div id="idPlayWrapper1">
+						   <img src="images/river.jpg" id="idTitleSlideImage1" width="1050" height="250" style="z-index:95;">
+						</div>
+					</div>
+					<div id="idPanel2" style="position: absolute; z-index: 5; opacity: 1;">
+						<div id="idPlayWrapper2">
+							<img src="images/hospitality.cb.jpg" id="idTitleSlideImage2" style="border:0; width:1050px; height:250px; z-index:76;">
+						</div>
+					</div>
+					<div id="idPanel3" style="position: absolute; z-index: 5; opacity: 1;">
+						<div id="idPlayWrapper3">
+							<img src="images/land.jpg" id="idTitleSlideImage3" style="border:0; width:1050px; height:250px; z-index:76;">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+		<div id="header-bottom"  style=" border-bottom:2px solid #003e7b; width:100%; position:relative; float:right;"></div> 
+		
+	</body>
+</html>
 
 
+
+
+<script language="javascript">
+	<!--
+	var nTotalPanels = 3;
+	var nPanel = 3;
+	var nOldPanel = 0;
+	var nStart = null;
+	var nFadeTime = 700;
+	var nHangTime = 7000;
+	var nHangTimer = null;
+
+	// check frame depth
+	if (window != window.parent) { window.parent.location = window.location; }
+
+	function autoAdvance() {
+		showPanel((nPanel % nTotalPanels) + 1);
+		nHangTimer = window.setTimeout('autoAdvance()', nHangTime)
+	}
+	nHangTimer = window.setTimeout('autoAdvance()', nHangTime)
+
+	function fadePanel() {
+		var t = getTimer() - nStart;
+		if (t < nFadeTime) {
+			var p = document.getElementById('idPanel' + nPanel);
+			n = Math.round((t / nFadeTime) * 100);
+			p.style.opacity = (n / 100);
+			p.style.filter = 'alpha(opacity=' + n + ')';
+			window.setTimeout('fadePanel()', 20);
+		}
+		else {
+			var p = document.getElementById('idPanel' + nPanel);
+			p.style.opacity = '';
+			p.style.filter = '';
+			var op = document.getElementById('idPanel' + nOldPanel);
+			op.style.display = 'none';
+		}
+		if (t < nFadeTime) {
+				
+			n = Math.round((t / nFadeTime) * 100);
+			window.setTimeout('fadePanel()', 20);
+		}
+		else {
+			var p = document.getElementById('idPanel' + nPanel);
+			p.style.opacity = '';
+			p.style.filter = '';
+			var op = document.getElementById('idPanel' + nOldPanel);
+			op.style.display = 'none';
+		}
+	}
+
+	function setPanel(i) {
+		if (nHangTimer != null) {
+			window.clearTimeout(nHangTimer);
+			nHangTimer = null;
+		}
+		showPanel(i);
+		return false;
+	}
+
+	function showPanel(i) {
+		if (i != nPanel) {
+			nStart = getTimer();
+			nOldPanel = nPanel;
+			nPanel = i;
+			for (a = 1; a <= nTotalPanels; a++) {
+				var p = document.getElementById('idPanel' + a);
+				if (a == nPanel) {
+					p.style.opacity = '0.01';
+					p.style.filter = 'alpha(opacity=01)';
+					p.style.zIndex = 10;
+					p.style.display = '';
+				}
+				else {
+					if (a == nOldPanel) {
+						p.style.opacity = '1';
+						p.style.filter = 'alpha(opacity=100)';
+						p.style.zIndex = 5;
+						p.style.display = '';
+					}
+					else {
+						p.style.display = 'none';
+					}
+				}
+			}
+			fadePanel();
+			showDots(i);
+		}
+	}
+
+	function showDots(i) {
+		for (a = 1; a <= nTotalPanels; a++) {
+
+			var d = document.getElementById('idDot' + a);
+			if (a == i) {
+	
+				d.style.background = "url(/art/TP/Features/hdrDotOn.png)";
+			}
+			else {
+				d.style.background = "url(/art/TP/Features/hdrDotOff.png)";
+			}
+		}
+	}
 	
 
-<div id="Agents">About Windermere Commercial</div>
+	function getTimer() {
+		return (new Date()).getTime();
+	}
+
+	
+	
+	// -->
+</script>
