@@ -1,0 +1,307 @@
+/*
+Theme Name: Windermere Commercial
+Author: Crystal Evans
+Description: Commercial Website for Windermere
+Version: 0.0.1
+Tags: bootstrap
+*/ 
+a {	cursor:pointer;	text-decoration:none;}
+
+body {
+	margin-top: 2%;
+	margin-bottom: 0px;
+	padding:0;
+	border:0;				
+	width:100%;
+	height:100%; 
+	background: #FFF;
+	font-family:garmond;
+	font-size: 16px;
+	text-decoration:none;
+}
+#logo {
+	width:248px;
+	height:176px;
+	margin-left:55px;
+	z-index:500;
+}
+
+/* ------------------------ HOME PAGE STYLES ------------------------ */
+#header {
+	position: relative;
+	top:0px;
+	clear:both;
+	width:1050px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	overflow:hidden;
+}
+#header #header-nav {
+	position:absolute;
+	height:25px;
+	width:1050px;
+	display:block;	
+}
+#header-top {
+	height: 6px;
+	background-color: #003e7b;
+	margin:0;
+	padding:0;
+	border:0;
+	width:1050px;
+}
+#header-middle {
+	height: 397px;
+	background: #FFF;
+}
+
+#header #header-middle #header-left {
+	height: 445px;
+	width: 320px;
+	display:block;
+	padding-right:5px;
+	position:absolute;
+}
+
+#header #header-middle  #contact {
+	width:300px;
+	margin-left:auto;
+	margin-right:10px;
+	text-align:right;	
+	height:100px;
+}
+#header #header-middle  #contact p {
+	font-family: 'Quattrocento', serif;
+	font-size: 14px;
+	color:#2980B9;
+	text-decoration:none;
+	line-height:22px;
+}
+#header #header-middle #header-left #contact h2 {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 24px;
+	color: #2980B9;	
+	text-decoration:none;
+	line-height:24px;
+}
+#header #header-middle #header-left #contact h3 {
+	font-family: 'Quattrocento', serif;
+	font-size: 18px;
+	color:#493521;
+	text-decoration:none;
+	line-height:20px;
+}
+
+#header #header-middle #middle-home-right {
+	height: 400px;
+	width: 715px;
+	display:block;
+	float: right;
+	overflow:hidden;
+}
+
+#ShortRightPanel{
+	height: 300px;
+	width: 715px;
+	display:block;
+	float: right;
+	overflow:hidden;
+}
+
+#header-bottom {
+	height: 6px;
+	background-color:#003e7b;
+	margin:0 auto;
+	border:1px solid #003e7b;
+ 	width:1050px;
+	position:relative;
+	z-index:99;
+ }
+ 
+#short-header-bottom {
+		height: 6px;
+	background-color:#003e7b;
+	margin:0 auto;
+	border:1px solid #003e7b;
+ 	width:1050px;
+	position:relative;
+	z-index:99;
+}
+
+#header #header-nav {
+	position:absolute;
+	top:104px;
+	height:25px;
+	width:1050px;
+	display:block;
+	background: url(images/bkgd_header_nav.gif) repeat;
+}
+
+#LeftPanel h3{	padding-left:20px;}
+
+#LeftPanel p{	padding-left:20px;}
+
+#BottomBorder{
+	background-color:#003e7b;
+	height:6px; 
+	width:1050px;
+	position:relative;
+	top:300px;
+ }
+
+.property-images{border-radius:15px;}
+
+#home-property-buttons { 
+	position:relative;
+	top:0;
+	width:1050px; 
+	height:220px; 
+	margin:0;
+	padding:0;
+}
+
+#home-property-buttons span { width:136px; margin-left:auto; margin-right:auto; }
+
+#home-property-buttons p {font-family: 'Quattrocento Sans', sans-serif; font-size:12px; font-weight:700; color: #8B7B6F; text-align:right; text-decoration:none; margin-top:60px; margin-left:13px; margin-right:13px; visibility:hidden; }
+
+#home-property-buttons li, 
+#home-property-buttons a { width:150px; /*	height:220px; */ height:220px; display:block; z-index:1000; color:#000; text-decoration:none; }
+
+#home-property-buttons li { float:left; list-style:none; _display:inline; position:relative; }
+
+#home-property-buttons a:hover,
+#home-property-buttons a:hover p.text { background: #FFF; visibility:visible;}
+
+#home-property-buttons img {
+	width:120px;
+	height:86px;
+	border: 2px solid #FFF;
+	margin-top:13px;
+	margin-left:13px;
+
+}
+#home-property-buttons p.title {
+	font-family: 'Quattrocento Sans', sans-serif; 
+	font-size:17px;
+	font-weight: 700;
+	line-height:20px;
+	color: #410F01;
+	text-decoration:none;
+	text-transform:uppercase; 
+	text-align:center;
+	margin:5px;
+	visibility:visible;
+}
+.button{
+	margin: auto;
+	width:128px;
+	height:25px;
+	font-size:20px;
+	font-weight:bxold;
+	font-family:garmond;
+	color:white;
+	text-align:center;
+	padding:5px;
+	padding-top:5px;
+	background-color:#003e7b;
+	border-radius: 4px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	 -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.button:hover {
+    background-color: #A1D1E2; /* Green */
+    color: white;
+}
+
+#top-nav{
+ 	display:block;
+	margin:auto;
+	float:left;
+} 
+ #TopNav li {
+	float: left;
+	width:auto;
+	min-width:130px;
+	position:relative;
+	border-top:2px solid white;
+}
+
+ #TopNav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+ }
+ 
+#TopNav li a {
+    display: block;
+    color:003e7b #; 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	background-color: #003e7b;
+    color: white;
+	border-left:1px solid #003e7b;
+	border-top:1px solid #003e7b;
+}
+
+#TopNav li a.active {
+	background-color:#003e7b;
+}
+
+#TopNav li a:hover:not(.active) {
+	background-color: white;
+	color: #003e7b;
+}
+
+/* ------ CATEGORY CONTAINER ---- */
+#column-mask {
+	position: relative; 
+	top:0px;
+	clear:both;
+	width:1050px;		 
+	margin-left:auto;
+	margin-right:auto;
+	overflow:hidden;	 
+	z-index: 500;
+}
+
+#CustomSearch{width:160px;}	
+#column-container {
+	position:relative;
+	width:1050px;
+	display: block;
+	margin-left:auto; 
+	margin-right:auto;
+	display:table;
+	-dt-display: table;
+}
+
+#LeftPanel {
+	float:left;
+	top:10px;
+	width:310px;
+	padding-right:20px;
+ 	position:relative;
+	margin:0 auto;	
+	xborder:1px solid lime;
+}
+
+#LeftPanel img{
+	position:relative;
+	padding-left:10px;
+	margin:0 auto;	
+	border-radius:20px;
+}
+#RightPanel{
+	width:705px;
+	padding-left:10px;
+	xborder:1px solid red;
+	float:left;
+	line-height:28px;
+	 
+	
+}
+ 

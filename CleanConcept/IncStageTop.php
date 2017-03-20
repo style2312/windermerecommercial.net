@@ -1,0 +1,46 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Windermere Commercial </title>
+	<meta name="description" content="Windermere Commercial Real Estate" />
+	<meta name="keywords" content="commercial real estate, listings, commercial properties, for sale, for lease, spokane, coeur d'alene, eastern washington, inland northwest, north idaho, sds realty, seattle, tacoma, portland, bend, washington state, oregon, idaho, northwest, puget sound" />
+	<meta name="robots" content="index, follow" />
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<div id="header">
+  <div id="header-top"></div>
+  <div id="header-middle">   
+	<div id="header-left"> 
+		<img id="smLogo" src="images/logo.jpg"/>
+		<div id="smcontact">
+			<h2><span>(509)</span> 747-1051</h2>
+			<h3>2829 S. Grand Blvd, Suite 101<br />
+			Spokane, WA 99223</h3>
+		</div>  
+    </div>  
+    <div id="smHeaderImg"  class="slideshow" style="z-index:800;">
+		<table>
+			<tr>
+				<td><a href="index.html"><div class="button">Home</div></a></td>
+				<td><a href="agents.html"><div class="button">Our Agents</div></a></td>
+				<td><a href="customsearch.html"><div class="button" id="search">Custom Search</div></a></td>
+				<td><a href="aboutus.html"><div class="button" id="search">Our Company</div></a></td>
+				<td><a href="contactus.html"><div class="button">Contact Us</div></a></td>
+			</tr>
+		</table>
+		
+		<div id="slide1"></div>
+	   
+	</div> <!-- /middle-home-right -->
+	<div id="short-header-bottom"></div>
+  </div> <!-- /header-middle -->
+  
+</div> <!-- /header -->
+
+<body>
+	
